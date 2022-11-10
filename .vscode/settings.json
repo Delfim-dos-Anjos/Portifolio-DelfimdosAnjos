@@ -1,0 +1,13 @@
+{
+    "emmet.preferences": {
+    
+    },
+    "[asp]": {
+        "files.autoGuessEncoding": false,
+        "files.encoding": "iso88591"
+    },
+    "[html]": {
+        "files.autoGuessEncoding": false,
+        "files.encoding": "iso88591"
+    }
+}

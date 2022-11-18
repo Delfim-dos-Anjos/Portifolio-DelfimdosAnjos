@@ -50,6 +50,15 @@
 
 		}
 
+		//Skills
+		/*$('.skills-content').waypoint(function() {
+			$('.progress .progress-bar').each(function() {
+				$(this).css("width", $(this).attr("aria-valuenow") + '%');
+			});
+		}, {
+			offset: '80%'
+		});*/
+
 	// Footer.
 		breakpoints.on('<=medium', function() {
 			$footer.insertAfter($main);

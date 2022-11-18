@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
 /*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Strata by Delfim dos Anjos 
+	Delfim dos Anjos | @Delfim
+	Portifolio com as aptidções e detalhes sobre mim e as minhas capacidades profissionais
 */
 
 html, body, div, span, applet, object,
@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #5d635f;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #5d635f !important;
 			text-decoration: none;
 		}
 
@@ -240,6 +240,43 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
+/* Skills */
+.skills-content .progress {
+	height: 50px;
+	display: block;
+	background: none;
+}
+
+.skills-content .progress .skill {
+	padding: 10px 0;
+	margin: 0 0 6px 0;
+	text-transform: uppercase;
+	display: inline;
+	font-weight: 550;
+	font-family: Arial, Helvetica, sans-serif;
+	color: inherit;
+}
+
+.skills-content .progress .skill .val {
+	float: right;
+	font-style: normal;
+}
+
+.skills-content .progress-bar-wrap {
+	background: rgba(155, 155, 155, 0.2);
+	border-radius: 20px;
+}
+
+.skills-content .progress-bar {
+	width: 1px;
+	height: 10px;
+	transition: .9s;
+	background-color: #5d635f;
+	border-radius: 20px;
+}
+
+
 
 /* Container */
 
@@ -1841,7 +1878,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #5d635f;
 		}
 
 	select {
@@ -1946,7 +1983,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #5d635f;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2145,6 +2182,13 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+
+/* Slogan */
+#slogan {
+	padding: 10px;
+	position: relative;
+	text-align: center;
+}
 
 /* List */
 
@@ -2464,8 +2508,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5d635f;
+			color: #5d635f !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2517,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5d635f;
+			color: #5d635f !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2561,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #5d635f;
+			border-color: #5d635f;
 			color: #ffffff !important;
 		}
 
@@ -2526,16 +2570,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #5d635f;
+				border-color: #5d635f;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #5d635f;
+				border-color: #5d635f;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,

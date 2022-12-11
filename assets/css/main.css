@@ -132,6 +132,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1805,18 +1806,21 @@ input, select, textarea {
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		
 	}
 
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
 		line-height: 1.5em;
+		
 	}
 
 	header h3 + p {
 		font-size: 1.1em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
+		
 	}
 
 	header h4 + p,
@@ -1825,6 +1829,7 @@ input, select, textarea {
 		font-size: 0.9em;
 		margin-top: -0.6em;
 		line-height: 1.5em;
+		
 	}
 
 	header.major h2 {
@@ -2640,7 +2645,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("../../images/bg01.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								160%;
+		background-size: auto,								200%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;

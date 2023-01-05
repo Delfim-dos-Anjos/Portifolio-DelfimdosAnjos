@@ -1,7 +1,7 @@
 /*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Strata by Delfim dos Anjos 
+	Delfim dos Anjos | @Delfim
+	Portifolio com as aptidções e detalhes sobre mim e as minhas capacidades profissionais
 */
 
 (function($) {

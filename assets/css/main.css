@@ -241,6 +241,19 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	
+/* Logo Marca */
+div#logo img {
+	position: absolute;
+	max-width: 70px;
+	top: 80px;
+	left: 33%;
+}
+div#logo h5 {
+	position: absolute;
+	top: 99px;
+}
+
 
 /* Skills */
 .skills-content .progress {
@@ -317,6 +330,7 @@ input, select, textarea {
 				width: 100% !important;
 				max-width: 100% !important;
 			}
+			
 
 		}
 
@@ -1304,6 +1318,7 @@ input, select, textarea {
 							padding-top: 4em;
 						}
 
+						
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1548,6 +1563,19 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
+						/* logo */
+		div#logo img {
+			position: absolute;
+			max-width: 70px;
+			top: 0px;
+			left:0%;
+		}
+		div#logo h5 {
+			position: absolute;
+			top: 192px;
+			left: 95px;
+		}
+
 
 		}
 
@@ -2188,11 +2216,59 @@ input, select, textarea {
 				width: 100%;
 			}
 
-/* Slogan */
-#slogan {
+/* Slogan*/ 
+/*#slogan {
 	padding: 10px;
 	position: relative;
 	text-align: center;
+}*/
+
+/* Slogan animation */ 
+h1 span {
+	position: relative;
+	top: 0px;
+	left: 10%;
+	display: inline-block;
+	color: #787878;
+	font-family: Verdana;
+	font-size: 40px;
+	text-shadow: 0 1px 0 #0cda51,
+	0 2px 0 #0cda51,
+	0 3px 0 #0cda51,
+	0 4px 0 #0cda51,
+	0 5px 0 #0cda51,
+	0 6px 0 transparent,
+	0 7px 0 transparent,
+	0 8px 0 transparent,
+	0 9px 0 transparent,
+	0 10px 0 10px rgba(255, 255, 255, .4);
+	animation: quebradinha .9s ease infinite alternate;
+}
+
+h1 span:nth-child(2) {animation-delay: .1s;}
+h1 span:nth-child(3) {animation-delay: .2s;}
+h1 span:nth-child(4) {animation-delay: .3s;}
+h1 span:nth-child(5) {animation-delay: .4s;}
+h1 span:nth-child(6) {animation-delay: .5s;}
+h1 span:nth-child(7) {animation-delay: .6s;}
+h1 span:nth-child(8) {animation-delay: .7s;}
+h1 span:nth-child(9) {animation-delay: .8s;}
+h1 span:nth-child(10) {animation-delay: .9s;}
+h1 span:nth-child(11) {animation-delay: 1s;}
+h1 span:nth-child(12) {animation-delay: 1.1s;}
+h1 span:nth-child(13) {animation-delay: 1.2s;}
+h1 span:nth-child(14) {animation-delay: 1.3s;}
+h1 span:nth-child(15) {animation-delay: 1.4s;}
+h1 span:nth-child(16) {animation-delay: 1.5s;}
+h1 span:nth-child(17) {animation-delay: 1.6s;}
+h1 span:nth-child(18) {animation-delay: 1.7s;}
+h1 span:nth-child(19) {animation-delay: 1.8s;}
+h1 span:nth-child(20) {animation-delay: 1.9s;}
+
+@keyframes quebradinha {
+	100% {
+		top: -20px;
+	}
 }
 
 /* List */
@@ -2407,6 +2483,19 @@ input, select, textarea {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
+	/* logo */
+		div#logo img {
+			position: absolute;
+			max-width: 70px;
+			top: 165px;
+			left:5%;
+		}
+		div#logo h5 {
+			position: absolute;
+			top: 192px;
+			left: 95px;
+		}
+
 
 		}
 
@@ -2642,11 +2731,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg01.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg02.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								200%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(246, 239, 239, 0.5);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -3039,6 +3128,7 @@ input, select, textarea {
 
 	}
 
+
 /* Large */
 
 	@media screen and (max-width: 1280px) {
@@ -3061,6 +3151,20 @@ input, select, textarea {
 				#header > .inner {
 					margin-bottom: 0;
 				}
+
+				/* logo */
+		div#logo img {
+			position: absolute;
+			max-width: 70px;
+			top: 15px;
+			left:26.5%;
+		}
+		div#logo h5 {
+			position: absolute;
+			top: 36px;
+			left: 320px;
+		}
+
 
 		/* Footer */
 
@@ -3087,6 +3191,20 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
+		/* logo */
+		div#logo img {
+			position: absolute;
+			max-width: 70px;
+			top: 165px;
+			left:5%;
+		}
+		div#logo h5 {
+			position: absolute;
+			top: 192px;
+			left: 95px;
+		}
+
+		
 		/* Basic */
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3257,6 +3375,18 @@ input, select, textarea {
 					display: none;
 				}
 
+		/* logo */
+				div#logo img {
+					position: absolute;
+					max-width: 70px;
+					top: 240px;
+					left: 5%;
+				}
+				div#logo h5 {
+					position: absolute;
+					top: 265px;
+					left: 90px;
+				}
 		/* Footer */
 
 			#footer .copyright li {

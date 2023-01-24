@@ -21,6 +21,21 @@
 
 		};
 
+	//Progressbar Loading...
+	// Obtém a barra de progresso
+var progressBar = document.getElementById("progress-bar");
+
+// Esconde a barra de progresso quando a página é carregada
+window.addEventListener("load", function () {
+  progressBar.style.display = "none";
+});
+
+// Exibe a barra de progresso enquanto a página é carregada
+window.addEventListener("beforeunload", function () {
+  progressBar.style.display = "block";
+});
+
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1800px' ],
